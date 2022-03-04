@@ -29,10 +29,3 @@ rocket_chat_mongodb_repl_lines: >-
 rocket_chat_nginx_process_user: www-data
 
 rocket_chat_service_update_command: systemctl daemon-reload
-rocket_chat_service_template:
-  src: rocketchat.service.j2
-  dest: /etc/systemd/system/rocketchat.service
-
-rocket_chat_service_template_at:
-  src: rocketchat@.service.j2
-  dest: /etc/systemd/system/rocketchat@.service
